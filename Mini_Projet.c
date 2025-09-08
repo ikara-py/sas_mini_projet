@@ -2,8 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-
-
 #define MAX_BOOKS 50
 #define slots 4 
 #define inner_string_size 50
