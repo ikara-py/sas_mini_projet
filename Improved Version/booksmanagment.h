@@ -16,8 +16,20 @@ void findBook();
 void viewBooks();
 void updateQuantite();
 void deleteBook();
+void idfindBook();
+void isbnfindBook();
+void isbndeleteBook();
 void menu();
 int count();
+
+
+typedef struct {
+    int ig;
+    int ce;
+    int na;
+    int cde;
+    int nd;
+}isbn;
 
 typedef struct {
     // short id;
@@ -25,6 +37,7 @@ typedef struct {
     char book_author[50];
     int book_quantity;
     float book_price;
+    isbn book_isbn;
 }books ;
 
 books book[50];

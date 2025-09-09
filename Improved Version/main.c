@@ -30,6 +30,15 @@ int main() {
             case 6:
                 printf("\nNombre total de livres en stock: %d\n", count());
                 break;
+            case 7:
+                isbndeleteBook();
+                break;
+            case 8:
+                isbnfindBook();
+                break;
+            case 9:
+                idfindBook();
+                break;
             case 0:
                 printf("Fermeture du programme. Au revoir !\n");
                 return 0;
